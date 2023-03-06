@@ -37,7 +37,7 @@ class Main {
         int age = 69;
         String country = "Nigeria";
 
-        String formattedString = String.format("My name is %s. I am from $s. I am %d years old.", myName, country, age);
+        String formattedString = String.format("My name is %s. I am from %s. I am %d years old.", myName, country, age);
 
         System.out.print(formattedString);
 
