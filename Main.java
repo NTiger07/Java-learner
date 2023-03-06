@@ -3,8 +3,9 @@ class Main {
         int num1 = 15;
         int num2 = 20;
 
-        System.out.println("We are " + num1 + num2 + " years old");
-        dataTypes(null);
+        // System.out.println("We are " + num1 + num2 + " years old");
+        // dataTypes(null);
+        StringFormating();
     }
 
     public static void dataTypes(String[] args) {
@@ -25,6 +26,20 @@ class Main {
         // Characters
         char copyrightSymbol = '\u00A9';
 
+        // String
+        String myName = "Favour";
+
         System.out.print("This is the copyright symbol " + copyrightSymbol);
+    }
+
+    public static void StringFormating() {
+        String myName = "Favour";
+        int age = 69;
+        String country = "Nigeria";
+
+        String formattedString = String.format("My name is %s. I am from $s. I am %d years old.", myName, country, age);
+
+        System.out.print(formattedString);
+
     }
 }
