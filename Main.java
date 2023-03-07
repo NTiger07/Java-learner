@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class Main {
     public static void main(String[] args) {
         int num1 = 15;
@@ -45,6 +47,12 @@ class Main {
         System.out.println(fullName.length());
         System.out.println(fullName.toUpperCase());
         System.out.println(fullName.toLowerCase());
+        System.out.println(fullName.contains("Favour"));
+        System.out.println(fullName.replace("Favour", "Oluwaseyi"));
 
+    }
+
+    public static void UserInput() {
+        Scanner scanner = new Scanner(System.in)
     }
 }
