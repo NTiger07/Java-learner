@@ -1,0 +1,4 @@
+The Scanner class is used for collecting user input of various types
+
+println vs print: print does not add a new line character
+printf: formats a string just like the String.format method
