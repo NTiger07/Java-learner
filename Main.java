@@ -123,17 +123,17 @@ class Main {
     }
 
     public static void Arrays() {
-        char vowels[] = new char[5];
-        vowels[0] = 'a';
-        vowels[1] = 'e';
-        vowels[2] = 'i';
-        vowels[3] = 'o';
-        vowels[4] = 'u';
+        // char vowels[] = new char[5];
 
-        char vowels2[] = { 'a', 'e', 'i', 'o', 'u' };
-        vowels2[1] = 'e';
+        char vowels[] = { 'e', 'u', 'i', 'a', 'o' };
+        // System.out.println(vowels.length);
 
-        System.out.println(Arrays.toString(vowels2));
+        // To sort from only second value[1] to fourth value[3]
+        int startingIndex = 1;
+        int endingIndex = 4; // exclusive
+
+        Arrays.sort(vowels, startingIndex, endingIndex);
+        System.out.println(Arrays.toString(vowels));
 
     }
 }
