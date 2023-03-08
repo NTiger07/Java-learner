@@ -13,3 +13,7 @@ while for Arrays array.length is a property
 Binary search only works on sorted arrays,
 so make sure to sort the array first before performing the Binary search.
 If an item does not exist in an array, array.binarySearch() will return a negative value.
+
+The main difference between the for loop and while loop is that:
+In a for loop the for statement contains an initialization, a condition and an expression to update the initial value ,
+a while loop only contains a condition, it's initialization is done outside the while loop and it's expression to update is in the body of th loop.
