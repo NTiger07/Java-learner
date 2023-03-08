@@ -1,11 +1,13 @@
 import java.util.Scanner;
+import java.util.Arrays;;
 
 class Main {
     public static void main(String[] args) {
         // dataTypes(null);
         // StringFormatingYMethods();
         // UserInput();
-        Conditionals();
+        // Conditionals();
+        Arrays();
     }
 
     public static void dataTypes(String[] args) {
@@ -80,9 +82,30 @@ class Main {
         String operation = scanner.nextLine();
         operation.toLowerCase();
 
-        // If, Else if and Else statements
+        // Using Switch
+        switch (operation) {
+            default:
+                System.out.printf(
+                        "%s is not a supported operation, try addition, subtraction, multiplication or division",
+                        operation);
+                break;
+            case "addition":
+                System.out.printf("%f + %f = %f", number1, number2, number1 + number2);
+                break;
+            case "subtraction":
+                System.out.printf("%f - %f = %f", number1, number2, number1 - number2);
+                break;
+            case "multiplication":
+                System.out.printf("%f * %f = %f", number1, number2, number1 * number2);
+                break;
+            case "division":
+                System.out.printf("%f / %f = %f", number1, number2, number1 / number2);
+                break;
+        }
 
-        // if (operation.equals("sum")) {
+        // Using If, Else if and Else statements
+
+        // if (operation.equals("addition")) {
         // System.out.printf("%f + %f = %f", number1, number2, number1 + number2);
         // } else if (operation.equals("subtraction")) {
         // System.out.printf("%f + %f = %f", number1, number2, number1 - number2);
@@ -94,7 +117,23 @@ class Main {
         // System.out.printf("%s is not a supported operation, try addition,
         // subtraction, multiplication or division",
         // operation);
-
         // }
+
+        scanner.close();
+    }
+
+    public static void Arrays() {
+        char vowels[] = new char[5];
+        vowels[0] = 'a';
+        vowels[1] = 'e';
+        vowels[2] = 'i';
+        vowels[3] = 'o';
+        vowels[4] = 'u';
+
+        char vowels2[] = { 'a', 'e', 'i', 'o', 'u' };
+        vowels2[1] = 'e';
+
+        System.out.println(Arrays.toString(vowels2));
+
     }
 }
