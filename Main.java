@@ -1,5 +1,6 @@
 import java.util.Scanner;
-import java.util.Arrays;;
+import java.util.Arrays;
+import java.util.ArrayList;
 
 class Main {
     public static void main(String[] args) {
@@ -9,7 +10,8 @@ class Main {
         // Conditionals();
         // Arrays();
         // ForLoops();
-        WhileLoops();
+        // WhileLoops();
+        Lists();
     }
 
     public static void dataTypes(String[] args) {
@@ -179,5 +181,9 @@ class Main {
             System.out.println("Wahala");
             number++;
         }
+    }
+
+    public static void Lists() {
+        ArrayList<Integer> numbers = new ArrayList<Integer>();
     }
 }
