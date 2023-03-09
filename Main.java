@@ -1,6 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 class Main {
     public static void main(String[] args) {
@@ -209,6 +210,12 @@ class Main {
     }
 
     public static void HashMap() {
+        HashMap<String, Integer> examScores = new HashMap<String, Integer>();
 
+        examScores.put("Math", 77);
+        examScores.put("English", 88);
+        examScores.put("Computer", 99);
+
+        System.out.println(examScores);
     }
 }
