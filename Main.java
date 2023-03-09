@@ -11,7 +11,8 @@ class Main {
         // Arrays();
         // ForLoops();
         // WhileLoops();
-        Lists();
+        // Lists();
+        HashMap();
     }
 
     public static void dataTypes(String[] args) {
@@ -192,7 +193,8 @@ class Main {
         numbers.add(4);
         numbers.add(5);
 
-        // System.out.println(numbers);
+        System.out.println(numbers);
+        // System.out.println(numbers.get(0)); // get value at index
         // numbers.set(2, Integer.valueOf(30));
         // numbers.remove(2); // index as argument
         // numbers.clear();
@@ -201,8 +203,12 @@ class Main {
         // System.out.println(numbers.contains(Integer.valueOf(4)));
 
         numbers.forEach(number -> {
-            System.out.println(number);
+            numbers.set(numbers.indexOf(number), number * 2);
         });
-        // System.out.println(numbers.get(0)); // get value at index
+        System.out.println(numbers);
+    }
+
+    public static void HashMap() {
+
     }
 }
