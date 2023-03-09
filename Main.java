@@ -185,5 +185,21 @@ class Main {
 
     public static void Lists() {
         ArrayList<Integer> numbers = new ArrayList<Integer>();
+
+        numbers.add(1);
+        numbers.add(2);
+        numbers.add(3);
+        numbers.add(4);
+        numbers.add(5);
+
+        // numbers.remove(2); // index as argument
+        // numbers.clear();
+        // numbers.remove(Integer.valueOf(4)); // actual value as argument
+
+        numbers.set(2, Integer.valueOf(30));
+        System.out.println(numbers);
+        System.out.println(numbers.size());
+        System.out.println(numbers.contains(Integer.valueOf(3)));
+        // System.out.println(numbers.get(0));
     }
 }
