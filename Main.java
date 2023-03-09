@@ -227,8 +227,9 @@ class Main {
         System.out.println(examScores.containsValue(99));
 
         examScores.forEach((subject, score) -> {
-            System.out.println(subject + "-" + score);
-
+            examScores.replace(subject, score - 10);
         });
+        System.out.println(examScores);
+
     }
 }
