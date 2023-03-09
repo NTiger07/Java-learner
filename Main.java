@@ -192,14 +192,17 @@ class Main {
         numbers.add(4);
         numbers.add(5);
 
+        // System.out.println(numbers);
+        // numbers.set(2, Integer.valueOf(30));
         // numbers.remove(2); // index as argument
         // numbers.clear();
         // numbers.remove(Integer.valueOf(4)); // actual value as argument
+        // System.out.println(numbers.size()); // length of list
+        // System.out.println(numbers.contains(Integer.valueOf(4)));
 
-        numbers.set(2, Integer.valueOf(30));
-        System.out.println(numbers);
-        System.out.println(numbers.size());
-        System.out.println(numbers.contains(Integer.valueOf(3)));
-        // System.out.println(numbers.get(0));
+        numbers.forEach(number -> {
+            System.out.println(numbers);
+        });
+        // System.out.println(numbers.get(0)); // get value at index
     }
 }
