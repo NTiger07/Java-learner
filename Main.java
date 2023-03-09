@@ -201,7 +201,7 @@ class Main {
         // System.out.println(numbers.contains(Integer.valueOf(4)));
 
         numbers.forEach(number -> {
-            System.out.println(numbers);
+            System.out.println(number);
         });
         // System.out.println(numbers.get(0)); // get value at index
     }
