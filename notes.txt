@@ -1,7 +1,7 @@
-The Scanner class is used for collecting user input of various types
+The Scanner class is used for collecting user input of various types.
 
-println vs print: print does not add a new line character
-printf: formats a string just like the String.format method
+println vs print: print does not add a new line character, println does.
+printf: formats a string just like the String.format method.
 
 
 Arrays have a definite size which is specified at initialization,
@@ -17,3 +17,5 @@ If an item does not exist in an array, array.binarySearch() will return a negati
 The main difference between the for loop and while loop is that:
 In a for loop the for statement contains an initialization, a condition and an expression to update the initial value ,
 a while loop only contains a condition, it's initialization is done outside the while loop and it's expression to update is in the body of th loop.
+
+HashMaps show up in random order.

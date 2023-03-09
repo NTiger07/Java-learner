@@ -195,13 +195,13 @@ class Main {
         numbers.add(5);
 
         System.out.println(numbers);
-        // System.out.println(numbers.get(0)); // get value at index
-        // numbers.set(2, Integer.valueOf(30));
-        // numbers.remove(2); // index as argument
-        // numbers.clear();
-        // numbers.remove(Integer.valueOf(4)); // actual value as argument
-        // System.out.println(numbers.size()); // length of list
-        // System.out.println(numbers.contains(Integer.valueOf(4)));
+        System.out.println(numbers.get(0)); // get value at index
+        numbers.set(2, Integer.valueOf(30));
+        numbers.remove(2); // index as argument
+        numbers.clear();
+        numbers.remove(Integer.valueOf(4)); // actual value as argument
+        System.out.println(numbers.size()); // length of list
+        System.out.println(numbers.contains(Integer.valueOf(4)));
 
         numbers.forEach(number -> {
             numbers.set(numbers.indexOf(number), number * 2);
@@ -214,8 +214,21 @@ class Main {
 
         examScores.put("Math", 77);
         examScores.put("English", 88);
-        examScores.put("Computer", 99);
+        examScores.put("Computer", 67);
+        examScores.put("Civic", 85);
+        examScores.put("Chemistry", 64);
+
+        examScores.putIfAbsent("Data P", 99);
+        examScores.replace("Math", 43);
 
         System.out.println(examScores);
+        System.out.println(examScores.get("Math"));
+        System.out.println(examScores.containsKey("Math"));
+        System.out.println(examScores.containsValue(99));
+
+        examScores.forEach((subject, score) -> {
+            System.out.println(subject + "-" + score);
+
+        });
     }
 }
