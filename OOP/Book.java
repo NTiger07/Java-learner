@@ -3,12 +3,14 @@ package OOP;
 public class Book {
     private String title;
     private String author;
+    private int pageCount;
     // private String ISBN;
     // private int copiesAvailable;
 
-    Book(String title, String author) {
+    Book(String title, String author, int pageCount) {
         this.title = title;
         this.author = author;
+        this.pageCount = pageCount;
     }
 
     public String getTitle() {
@@ -17,6 +19,10 @@ public class Book {
 
     public String getAuthor() {
         return this.author;
+    }
+
+    public int getPageCount() {
+        return this.pageCount;
     }
 
     public String toString() {

@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class User {
     private String name;
     private LocalDate DOB;
-    public ArrayList<Book> books = new ArrayList<Book>();
+    private ArrayList<Book> books = new ArrayList<Book>();
 
     User(String name, String DOB) {
         this.name = name;
