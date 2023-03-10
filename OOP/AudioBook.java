@@ -1,25 +1,14 @@
 package OOP;
 
-public class AudioBook {
-    private String title;
-    private String author;
-    private int length;
+public class AudioBook extends Book {
+    private int runTime;
 
-    AudioBook(String title, String author, int length) {
-        this.title = title;
-        this.author = author;
-        this.length = length;
+    AudioBook(String title, String author, int runTime) {
+        super(title, author, 0);
+        this.runTime = runTime;
     }
 
-    public String getTitle() {
-        return this.title;
-    }
-
-    public String getAuthor() {
-        return this.author;
-    }
-
-    public int getLength() {
-        return this.length;
+    public int getRunTime() {
+        return this.runTime;
     }
 }

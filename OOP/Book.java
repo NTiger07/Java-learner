@@ -26,6 +26,6 @@ public class Book {
     }
 
     public String toString() {
-        return String.format("%s by %s \n", this.title, this.author);
+        return String.format("%s by %s", this.title, this.author);
     }
 }
