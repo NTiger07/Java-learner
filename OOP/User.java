@@ -2,14 +2,25 @@ package OOP;
 
 import java.time.LocalDate;
 import java.time.Period;
+import java.util.ArrayList;
 
 public class User {
     public String name;
     public LocalDate DOB;
+    public ArrayList<Book> books = new ArrayList<Book>();
 
-    public int age() {
+    User(String name, String DOB) {
+        this.name = name;
+        this.DOB = LocalDate.parse(DOB);
+    }
+
+    public int getAge() {
         Period age = Period.between(this.DOB, LocalDate.now());
         return age.getYears();
+    }
+
+    public void borrowBook(Book book) {
+        this.books.add(book);
     }
 
 }

@@ -1,11 +1,12 @@
 package OOP;
 
 public class Book {
-    public String name;
+    public String title;
     public String author;
-    public String ISBN;
-    public int copiesAvailable;
+    // public String ISBN;
+    // public int copiesAvailable;
 
-    public static void main() {
+    public String toString() {
+        return String.format("%s by %s \n", this.title, this.author);
     }
 }
