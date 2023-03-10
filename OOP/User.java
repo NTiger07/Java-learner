@@ -5,13 +5,21 @@ import java.time.Period;
 import java.util.ArrayList;
 
 public class User {
-    public String name;
-    public LocalDate DOB;
+    private String name;
+    private LocalDate DOB;
     public ArrayList<Book> books = new ArrayList<Book>();
 
     User(String name, String DOB) {
         this.name = name;
         this.DOB = LocalDate.parse(DOB);
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public String getDOB() {
+        return this.DOB.toString();
     }
 
     public int getAge() {
