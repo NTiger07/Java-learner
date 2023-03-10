@@ -22,4 +22,5 @@ HashMaps show up in random order.
 
 
 OOP
-Abstraction is abstracting the complex functionality of a class into a simple form. 
+Abstraction is abstracting the complex functionality of a class into a simple form.
+Inheritance: a child class can inherit properties and methods from a parent simply using the 'extends' when defining the class and 'super' in the constructor method.
