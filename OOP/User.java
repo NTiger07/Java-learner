@@ -22,6 +22,10 @@ public class User {
         return this.DOB.toString();
     }
 
+    public String borrowedBooks() {
+        return this.books.toString();
+    }
+
     public int getAge() {
         Period age = Period.between(this.DOB, LocalDate.now());
         return age.getYears();

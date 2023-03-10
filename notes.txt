@@ -19,3 +19,7 @@ In a for loop the for statement contains an initialization, a condition and an e
 a while loop only contains a condition, it's initialization is done outside the while loop and it's expression to update is in the body of th loop.
 
 HashMaps show up in random order.
+
+
+OOP
+Abstraction is abstracting the complex functionality of a class into a simple form. 

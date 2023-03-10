@@ -11,7 +11,7 @@ public class Main {
 
         user1.borrowBook(book);
 
-        System.out.printf("User %s has borrowed %s\n", user1.getName(), user1.books.toString());
+        System.out.printf("User %s has borrowed %s\n", user1.getName(), user1.borrowedBooks());
 
     }
 }
