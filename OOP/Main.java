@@ -7,12 +7,7 @@ public class Main {
         System.out.printf("%s was born back in %s and he is now %d years old\n", user1.getName(), user1.getDOB(),
                 user1.getAge());
 
-        Book book = new Book();
-
-        book.title = "The 48 Laws of Power";
-        book.author = "Robert Greene";
-        // book.copiesAvailable = 1000;
-        // book.ISBN = "9788423991815";
+        Book book = new Book("The 48 Laws of Power", "Robert Greene");
 
         user1.borrowBook(book);
 
