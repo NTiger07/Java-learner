@@ -5,18 +5,18 @@ import java.util.HashMap;
 
 class Main {
     public static void main(String[] args) {
-        // dataTypes(null);
-        // StringFormatingYMethods();
-        // UserInput();
-        // Conditionals();
-        // Arrays();
-        // ForLoops();
-        // WhileLoops();
-        // Lists();
+        dataTypes();
+        StringFormatingYMethods();
+        UserInput();
+        Conditionals();
+        Arrays();
+        ForLoops();
+        WhileLoops();
+        Lists();
         HashMap();
     }
 
-    public static void dataTypes(String[] args) {
+    public static void dataTypes() {
         // Integer types
         byte aSingleByte = 100;
         short aSmallNumber = 20000;
