@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Lists {
-    public static void List() {
+    public static void lists() {
         ArrayList<Integer> numbers = new ArrayList<Integer>();
 
         numbers.add(1);

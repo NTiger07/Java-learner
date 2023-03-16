@@ -6,14 +6,14 @@ import java.util.HashMap;
 class Main {
     public static void main(String[] args) {
         dataTypes();
-        StringFormatingYMethods();
-        UserInput();
-        Conditionals();
-        Arrays();
-        ForLoops();
-        WhileLoops();
-        Lists();
-        HashMaps();
+        stringFormatingYMethods();
+        userInputs();
+        conditionals();
+        arrays();
+        forLoops();
+        whileLoops();
+        lists();
+        hashMaps();
     }
 
 }

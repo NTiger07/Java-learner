@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 public class HashMaps {
-    public static void HashMap() {
+    public static void hashMaps() {
         HashMap<String, Integer> examScores = new HashMap<String, Integer>();
 
         examScores.put("Math", 77);

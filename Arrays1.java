@@ -1,8 +1,7 @@
 import java.util.Arrays;
-import java.util.ArrayList;
 
-public class Arrays {
-    public static void Array() {
+public class Arrays1 {
+    public static void arrays() {
         // char vowels[] = new char[5];
 
         char vowels[] = { 'e', 'u', 'i', 'a', 'o' };

@@ -1,5 +1,5 @@
 public class StringFormatingYMethods {
-    public static void StringFormatingYMethods() {
+    public static void stringFormatingYMethods() {
         String myName = "Favour"; // %s
         int age = 69; // %d
         String country = "Nigeria";

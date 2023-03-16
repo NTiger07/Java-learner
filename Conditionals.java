@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Conditionals {
-    public static void Conditional() {
+    public static void conditionals() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
