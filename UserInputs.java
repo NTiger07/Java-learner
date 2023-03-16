@@ -8,7 +8,7 @@ public class UserInputs {
 
         System.out.printf("Hello %s! How old are you? : ", name);
         int age = scanner.nextInt();
-        System.out.printf("%d is an excellent age to start learning Java!", age);
+        System.out.printf("%d is an excellent age to start learning Java! \n", age);
 
         // scanner.nextDouble();
         // scanner.nextBoolean();
