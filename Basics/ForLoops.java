@@ -1,3 +1,5 @@
+package Basics;
+
 public class ForLoops {
     public static void forLoops() {
         int numbers[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };

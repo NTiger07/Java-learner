@@ -1,3 +1,5 @@
+package Basics;
+
 class Main {
     public static void main(String[] args) {
         DataTypes.dataTypes();

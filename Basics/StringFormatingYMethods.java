@@ -1,3 +1,5 @@
+package Basics;
+
 public class StringFormatingYMethods {
     public static void stringFormatingYMethods() {
         String myName = "Favour"; // %s

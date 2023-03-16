@@ -1,3 +1,5 @@
+package Basics;
+
 public class WhileLoops {
     public static void whileLoops() {
         int number = 1;
