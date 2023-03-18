@@ -6,7 +6,7 @@ public class Main {
 
         Car car1 = new Car("Toyota", "Camry", 2022, "Coupe", "Red");
 
-        garage1.park(car1);
+        // garage1.park(car1);
         System.out.println(garage1);
         System.out.println(car1);
     }
