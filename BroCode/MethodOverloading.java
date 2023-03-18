@@ -1,9 +1,13 @@
 package BroCode;
 
-public class Main {
-    public static void main(String[] args) {
+public class MethodOverloading {
 
+    public static void methodOverloading(String[] args) {
+
+        System.out.println(sum(3, 5));
+        System.out.println(sum(3, 5, 4));
         System.out.println(sum(3, 5, 4, 16));
+
     }
 
     static int sum(int a, int b) {
