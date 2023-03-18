@@ -36,7 +36,7 @@ public class Car {
     }
 
     public String toString() {
-        return String.format("Brand: %s \n Model: %s \n Year: %d \n Type: %s \n Color: %s", this.Brand, this.Model,
+        return String.format("Brand: %s \nModel: %s \nYear: %d \nType: %s \nColor: %s \n", this.Brand, this.Model,
                 this.Year, this.Type, this.Color);
     }
 }

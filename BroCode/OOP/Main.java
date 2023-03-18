@@ -1,7 +1,7 @@
 package BroCode.OOP;
 
 public class Main {
-    public static void main() {
+    public static void main(String[] args) {
         Garage garage1 = new Garage(1, 20, 20);
 
         Car car1 = new Car("Toyota", "Camry", 2022, "Coupe", "Red");

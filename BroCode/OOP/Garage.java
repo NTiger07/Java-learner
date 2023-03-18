@@ -24,7 +24,7 @@ public class Garage {
     }
 
     public String toString() {
-        return String.format("Garage of ID: %d \n TotalCapacity: %d \n Remaining Capacity: %d", this.ID,
+        return String.format("Garage of ID: %d \nTotalCapacity: %d \nRemaining Capacity: %d \n", this.ID,
                 this.TotalCapacity, this.RemainingCapacity);
     }
 
