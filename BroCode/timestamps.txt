@@ -1,8 +1,3 @@
-#26 (02:51:24)  objects (OOP) ☕
-#27 (03:01:36)  constructors 👷
-#28 (03:11:36)  variable scope 🌍
-#29 (03:16:39)  overloaded constructors 🍕
-#30 (03:24:04)  toString method 🎉
 #31 (03:30:08)  array of objects 🍱
 #32 (03:35:48)  object passing 🏬
 #33 (03:40:27)  static keyword ⚡
