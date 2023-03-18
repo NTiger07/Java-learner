@@ -30,6 +30,6 @@ public class Garage {
 
     public String park(Car car) {
         this.RemainingCapacity -= 1;
-        return String.format("%c has been parked", this.park(car));
+        return String.format("A %s %s car has been parked", car.getColor(), car.getBrand());
     }
 }
