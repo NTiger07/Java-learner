@@ -11,7 +11,7 @@ public class Main {
         System.out.println(garage1.park(car1));
         System.out.println(garage1.park(car2));
         System.out.println(garage1.getRemainingCapacity());
-        // System.out.println(car1);
+
     }
 
 }

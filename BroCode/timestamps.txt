@@ -1,5 +1,3 @@
-#31 (03:30:08)  array of objects 🍱
-#32 (03:35:48)  object passing 🏬
 #33 (03:40:27)  static keyword ⚡
 #34 (03:48:10)  inheritance 👪
 #35 (03:53:45)  method overriding 🙅‍♂️
