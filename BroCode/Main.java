@@ -1,6 +1,6 @@
 package BroCode;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,9 +16,15 @@ public class Main {
             System.out.println(String.format("Result: %d", x / y));
         } catch (ArithmeticException e) {
             System.out.println("You can't divide by zero!!");
+        } catch (InputMismatchException e) {
+            scanner.nextLine();
+            System.out.println("Please enter an integer");
+        } catch (Exception e) {
+            System.out.println("An error occurred");
         }
-
+        System.out.println("This will always run");
         scanner.close();
+
     }
 
 }
