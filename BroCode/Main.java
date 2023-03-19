@@ -1,14 +1,19 @@
 package BroCode;
 
-import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        File file1 = new File("./BroCode/timestamps.txt"); // returns true, "timestamps.txt returns false"
-
-        // file1.delete();
-
-        System.out.println(file1.exists());
+        try {
+            FileWriter fileWriter = new FileWriter("test.txt");
+            fileWriter.write("Roses are red \nViolets are blue \nYou're a cunt\n");
+            fileWriter.append("(Poem by Favour)");
+            fileWriter.close();
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
     }
 
 }
