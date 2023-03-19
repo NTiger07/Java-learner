@@ -1,6 +1,3 @@
-#45 (05:02:31)  File class 📁
-#46 (05:09:15)  FileWriter (write to a file) 📝
-#47 (05:12:30)  FileReader (read a file) 📖
 #48 (05:17:04)  audio 🔊
 
 

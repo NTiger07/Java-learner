@@ -4,7 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class FilesWriter {
-    public static void main(String[] args) {
+    public static void fileWriter(String[] args) {
         try {
             FileWriter fileWriter = new FileWriter("test.txt");
             fileWriter.write("Roses are red \nViolets are blue \nYou're a cunt\n");

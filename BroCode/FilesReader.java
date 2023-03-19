@@ -4,8 +4,8 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Main {
-    public static void main(String[] args) {
+public class FilesReader {
+    public static void fileReader(String[] args) {
         try {
             FileReader fileReader = new FileReader("test.txt");
             int data = fileReader.read();
