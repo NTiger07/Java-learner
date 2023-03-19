@@ -1,11 +1,3 @@
-#33 (03:40:27)  static keyword ⚡
-#34 (03:48:10)  inheritance 👪
-#35 (03:53:45)  method overriding 🙅‍♂️
-#36 (03:57:33)  super keyword 🦸‍♂️
-#37 (04:05:06)  abstraction 👻
-#38 (04:10:01)  access modifiers 🔒
-#39 (04:19:39)  encapsulation 💊
-#40 (04:27:30)  copy objects 🖨️
 #41 (04:34:03)  interface 🦅
 #42 (04:41:19)  polymorphism 🏁
 #43 (04:46:55)  dynamic polymorphism ✨

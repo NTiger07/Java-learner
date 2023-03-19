@@ -1,4 +1,4 @@
-package BroCode.OOP;
+package BroCode.OOP.GarageYCar;
 
 public class Car {
     private String Brand;
