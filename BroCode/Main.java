@@ -1,24 +1,24 @@
 package BroCode;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println(sum(3, 5, 4, 16));
-    }
+        System.out.print("Enter a whole number: ");
+        int x = scanner.nextInt();
 
-    static int sum(int a, int b) {
-        System.out.println("Overloaded Method #1");
-        return a + b;
-    }
+        System.out.print("Enter another whole number to divide by: ");
+        int y = scanner.nextInt();
 
-    static int sum(int a, int b, int c) {
-        System.out.println("Overloaded Method #2");
-        return a + b + c;
-    }
+        try {
+            System.out.println(String.format("Result: %d", x / y));
+        } catch (ArithmeticException e) {
+            System.out.println("You can't divide by zero!!");
+        }
 
-    static int sum(int a, int b, int c, int d) {
-        System.out.println("Overloaded Method #2");
-        return a + b + c + d;
+        scanner.close();
     }
 
 }
