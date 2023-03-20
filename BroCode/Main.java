@@ -2,21 +2,15 @@ package BroCode;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("I love you");
+        MyGenericClass<Integer> integerArray = new MyGenericClass<Integer>(1);
+        MyGenericClass<Double> doubleArray = new MyGenericClass<Double>(3.14);
+        MyGenericClass<Character> characterArray = new MyGenericClass<Character>('@');
+        MyGenericClass<String> stringArray = new MyGenericClass<String>("Hello");
 
-        MyGenericClass<Integer> integerArray = 1;
-        MyGenericClass<Double> doubleArray = 3.14;
-        MyGenericClass<Character> characterArray = '@';
-        MyGenericClass<String> stringArray = "Hello";
-
-        displayArray(integerArray);
-
-    }
-
-    static <T> void displayArray(T[] array) {
-        for (T x : array) {
-            System.out.println(x);
-        }
+        System.out.println(integerArray.getValue());
+        System.out.println(doubleArray.getValue());
+        System.out.println(characterArray.getValue());
+        System.out.println(stringArray.getValue());
     }
 
 }
