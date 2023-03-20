@@ -13,8 +13,8 @@ public class Main {
 
     }
 
-    static void displayArray(Integer[] array) {
-        for (int x : array) {
+    static <T> void displayArray(T[] array) {
+        for (T x : array) {
             System.out.println(x);
         }
     }
