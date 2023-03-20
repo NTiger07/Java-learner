@@ -8,6 +8,15 @@ public class Main {
         Double[] doubleArray = { 1.1, 2.2, 3.3, 4.4, 5.5 };
         Character[] characterArray = { 'H', 'E', 'L', 'L', 'O' };
         String[] stringArray = { "B", "Y", "E" };
+
+        displayArray(integerArray);
+
+    }
+
+    static void displayArray(Integer[] array) {
+        for (int x : array) {
+            System.out.println(x);
+        }
     }
 
 }
