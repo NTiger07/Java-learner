@@ -1,27 +1,13 @@
 package BroCode;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-
 public class Main {
     public static void main(String[] args) {
-        try {
-            FileReader fileReader = new FileReader("test.txt");
-            int data = fileReader.read();
+        System.out.println("I love you");
 
-            while (data != -1) {
-                System.out.print((char) data);
-                data = fileReader.read();
-            }
-            fileReader.close();
-        } catch (FileNotFoundException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
+        Integer[] integerArray = { 1, 2, 3, 4, 5 };
+        Double[] doubleArray = { 1.1, 2.2, 3.3, 4.4, 5.5 };
+        Character[] characterArray = { 'H', 'E', 'L', 'L', 'O' };
+        String[] stringArray = { "B", "Y", "E" };
     }
 
 }
