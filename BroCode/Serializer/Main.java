@@ -14,11 +14,8 @@ public class Main {
 
         User user1 = new User("Beckham", "davidbeckham724");
 
-        FileOutputStream fileOut;
-        ObjectOutputStream out;
-
-        fileOut = new FileOutputStream("./BroCode/Serializer/UserInfo.ser");
-        out = new ObjectOutputStream(fileOut);
+        FileOutputStream fileOut = new FileOutputStream("./BroCode/UserInfo.ser");
+        ObjectOutputStream out = new ObjectOutputStream(fileOut);
         out.writeObject(user1);
         out.close();
         fileOut.close();
