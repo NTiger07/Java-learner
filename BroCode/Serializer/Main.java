@@ -1,5 +1,7 @@
 package BroCode.Serializer;
 
+import java.io.*;
+
 public class Main {
     // Steps to Serialize
     // Object class should implement Serializable interface
@@ -8,12 +10,19 @@ public class Main {
     // out.writeObject(object_name)
     // out.close(); fileOut.close();
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         User user1 = new User("Beckham", "davidbeckham724");
 
-        System.out.println(user1.getName());
-        System.out.println(user1.getPassword());
+        FileOutputStream fileOut;
+        ObjectOutputStream out;
+
+        fileOut = new FileOutputStream("UserInfo.ser");
+        out = new ObjectOutputStream(fileOut);
+        out.writeObject(user1);
+        out.close();
+        fileOut.close();
+
     }
 
 }
