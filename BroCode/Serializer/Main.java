@@ -1,7 +1,6 @@
 package BroCode.Serializer;
 
 public class Main {
-
     public static void main() {
 
         User user1 = new User("Beckham", "davidbeckham724");

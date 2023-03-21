@@ -5,7 +5,7 @@ import java.util.*;
 public class TwoDimensionLists {
 
     public static void twoDimensionLists(String[] args) {
-        ArrayList<ArrayList<String>> groceryList = new ArrayList();
+        ArrayList<ArrayList<String>> groceryList = new ArrayList<ArrayList<String>>();
 
         ArrayList<String> drinksList = new ArrayList<String>();
 
