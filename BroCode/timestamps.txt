@@ -23,9 +23,3 @@
 #71 (09:26:48)  key bindings ⌨️
 #72 (09:38:57)  2D graphics 🖍️
 #73 (09:58:33)  2D animation 👾
-
-
-#78 (11:24:01)  multithreading 🧶
-#79 (11:38:44)  packages 📦
-#80 (11:42:49)  compile/run command prompt 💽
-#81 (11:50:51)  executable (.jar) ☕
