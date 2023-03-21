@@ -10,7 +10,7 @@ public class MyThread extends Thread {
         // System.out.println("This is a user thread that is running");
         // }
 
-        for (int i = 10; i <= 10; i--) {
+        for (int i = 10; i > 0; i--) {
             System.out.println("Thread #1: " + i);
 
             try {
@@ -20,7 +20,7 @@ public class MyThread extends Thread {
                 e.printStackTrace();
             }
 
-            System.out.println("Thread #1 is finished");
         }
+        System.out.println("Thread #1 is finished");
     }
 }
