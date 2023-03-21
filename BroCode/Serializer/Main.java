@@ -17,11 +17,13 @@ public class Main {
         FileOutputStream fileOut;
         ObjectOutputStream out;
 
-        fileOut = new FileOutputStream("UserInfo.ser");
+        fileOut = new FileOutputStream("./BroCode/Serializer/UserInfo.ser");
         out = new ObjectOutputStream(fileOut);
         out.writeObject(user1);
         out.close();
         fileOut.close();
+
+        System.out.println("Object info saved!");
 
     }
 
