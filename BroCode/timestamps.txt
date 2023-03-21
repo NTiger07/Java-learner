@@ -25,8 +25,6 @@
 #73 (09:58:33)  2D animation 👾
 
 
-#74 (10:15:14)  generics ❓
-#75 (10:36:43)  serialization 🥣
 #76 (10:57:21)  TimerTask ⌚
 #77 (11:08:36)  threads 🧵
 #78 (11:24:01)  multithreading 🧶
